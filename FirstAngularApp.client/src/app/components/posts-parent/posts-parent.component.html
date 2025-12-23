@@ -1,0 +1,8 @@
+<h2>Quotes (Parent)</h2>
+
+<div *ngIf="loading">Loading...</div>
+<div *ngIf="error">{{ error }}</div>
+
+<div *ngFor="let quote of quotes">
+  <app-post-child [quote]="quote"></app-post-child>
+</div>
