@@ -21,7 +21,7 @@ For clarity, I chose a quotes API so that the returned data would be short and c
   - Making the REST call
   - Managing loading and error state
   - Iterating over the returned data
-- I learned the **child component** is responsible only for:
+  - I learned the **child component** is responsible only for:
   - Receiving a single record
   - Rendering that record
 
