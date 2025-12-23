@@ -7,7 +7,7 @@ The application consists of a parent component that retrieves JSON data from a p
 
 ## What the Application Does
 - Uses the Angular CLI to scaffold the application and components
-- Retrieves JSON data from a free online REST API using Angularâ€™s `HttpClient`
+- Retrieves JSON data from a free online REST API using Angular’s `HttpClient`
 - Passes each record from the parent component to a child component using `@Input()`
 - Displays the data in a simple, readable format
 
@@ -45,7 +45,6 @@ Overall, this project was a valuable learning exerience that truly challenged my
 ## API Used
 - DummyJSON Quotes API  
   https://dummyjson.com/quotes
-
 ---
 
 ## How to Run the App
